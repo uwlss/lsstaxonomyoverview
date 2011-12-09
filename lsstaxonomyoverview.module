@@ -1,0 +1,10 @@
+<?php
+
+include_once('lsstaxonomyoverview.features.inc');
+
+/**
+* Implementation of hook_init().
+*/
+function lsstaxonomyoverview_init() {
+  drupal_add_css(drupal_get_path('module', 'lsstaxonomyoverview') .'/lsstaxonomyoverview.css');
+}
