@@ -312,8 +312,8 @@ function lsstaxonomyoverview_views_default_views() {
   $handler->override_option('path', 'taxonomy/term');
   $handler->override_option('menu', array(
     'type' => 'normal',
-    'title' => 'Keywords',
-    'description' => 'Keywords',
+    'title' => 'Tags',
+    'description' => 'List of tags used to organize content on your site',
     'weight' => '0',
     'name' => 'features',
   ));

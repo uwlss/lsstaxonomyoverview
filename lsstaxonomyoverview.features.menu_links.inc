@@ -11,10 +11,10 @@ function lsstaxonomyoverview_menu_default_menu_links() {
     'menu_name' => 'features',
     'link_path' => 'taxonomy/term',
     'router_path' => 'taxonomy/term',
-    'link_title' => 'Keywords',
+    'link_title' => 'Tags',
     'options' => array(
       'attributes' => array(
-        'title' => 'Keywords',
+        'title' => 'Tags',
       ),
     ),
     'module' => 'system',
@@ -26,7 +26,7 @@ function lsstaxonomyoverview_menu_default_menu_links() {
   );
   // Translatables
   // Included for use with string extractors like potx.
-  t('Keywords');
+  t('Tags');
 
 
   return $menu_links;
